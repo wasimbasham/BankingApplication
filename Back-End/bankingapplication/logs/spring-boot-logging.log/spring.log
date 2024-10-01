@@ -1,0 +1,39 @@
+2024-05-16 12:56:20.673  INFO 15160 --- [main] c.p.b.BankingapplicationApplication      : Starting BankingapplicationApplication using Java 17.0.11 on Wasim_Basha with PID 15160 (D:\GitHub Repos\Batch-1B-Project\Back-End\bankingapplication\target\classes started by wasim in D:\GitHub Repos\Batch-1B-Project\Back-End\bankingapplication)
+2024-05-16 12:56:20.677 DEBUG 15160 --- [main] c.p.b.BankingapplicationApplication      : Running with Spring Boot v2.6.3, Spring v5.3.15
+2024-05-16 12:56:20.677  INFO 15160 --- [main] c.p.b.BankingapplicationApplication      : No active profile set, falling back to default profiles: default
+2024-05-16 12:56:21.322  INFO 15160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-16 12:56:21.390  INFO 15160 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 8 JPA repository interfaces.
+2024-05-16 12:56:21.968  INFO 15160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-05-16 12:56:21.980  INFO 15160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16 12:56:21.980  INFO 15160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-05-16 12:56:22.062  INFO 15160 --- [main] o.a.c.c.C.[.[localhost].[/ebanking]      : Initializing Spring embedded WebApplicationContext
+2024-05-16 12:56:22.063  INFO 15160 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1338 ms
+2024-05-16 12:56:22.293  INFO 15160 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-16 12:56:22.403  INFO 15160 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2024-05-16 12:56:22.530  INFO 15160 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-05-16 12:56:22.655  INFO 15160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-16 12:56:22.825  INFO 15160 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-16 12:56:22.851  INFO 15160 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-05-16 12:56:23.279  INFO 15160 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.project.bankingapplication.entity.BillerStatement (class must be instantiated by Interceptor)
+2024-05-16 12:56:23.507  INFO 15160 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-16 12:56:23.511  INFO 15160 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-16 12:56:23.937  WARN 15160 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2024-05-16 12:56:24.165  WARN 15160 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-16 12:56:24.759  INFO 15160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/ebanking'
+2024-05-16 12:56:24.771  INFO 15160 --- [main] c.p.b.BankingapplicationApplication      : Started BankingapplicationApplication in 4.426 seconds (JVM running for 4.799)
+2024-05-16 13:51:12.161  WARN 15160 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m19s116ms555µs200ns).
+2024-05-16 13:56:27.244  INFO 15160 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/ebanking]      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16 13:56:27.244  INFO 15160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16 13:56:27.244  INFO 15160 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-05-16 13:56:27.385 DEBUG 15160 --- [http-nio-8080-exec-2] c.p.b.controller.CustomerController      : Debug Occured
+2024-05-16 13:56:27.409 DEBUG 15160 --- [http-nio-8080-exec-2] c.p.b.s.I.CustomerServiceImpl            : Debug Occured
+2024-05-16 13:56:49.447 DEBUG 15160 --- [http-nio-8080-exec-3] c.p.b.controller.CustomerController      : Debug Occured
+2024-05-16 13:56:49.447 DEBUG 15160 --- [http-nio-8080-exec-3] c.p.b.s.I.CustomerServiceImpl            : Debug Occured
+2024-05-16 13:58:34.925 DEBUG 15160 --- [http-nio-8080-exec-6] c.p.b.controller.LoginController         : Debug Occured
+2024-05-16 13:58:34.933 DEBUG 15160 --- [http-nio-8080-exec-6] c.p.b.s.Implementation.LoginServiceImpl  : Debug Occured
+2024-05-16 13:58:38.899 DEBUG 15160 --- [http-nio-8080-exec-7] c.p.b.c.NewApplicationController         : Debug Occured
+2024-05-16 13:58:40.337 DEBUG 15160 --- [http-nio-8080-exec-8] c.p.b.controller.LoginController         : Debug Occured
+2024-05-16 13:58:40.337 DEBUG 15160 --- [http-nio-8080-exec-8] c.p.b.s.I.CustomerServiceImpl            : Debug Occured
+2024-05-16 13:58:49.001 DEBUG 15160 --- [http-nio-8080-exec-9] c.p.b.controller.LoginController         : Debug Occured
+2024-05-16 13:58:49.001 DEBUG 15160 --- [http-nio-8080-exec-9] c.p.b.s.I.TransactionServiceImpl         : Debug Occured
+2024-05-16 13:58:51.793 DEBUG 15160 --- [http-nio-8080-exec-10] c.p.b.c.NewApplicationController         : Debug Occured
